@@ -17,14 +17,14 @@
       top: 50%;
       left: 10px;
       transform: translateY(-50%);
-      color: #6c757d;
+      color: gray;
     }
     .form-floating input,
     .form-floating select {
       padding-left: 2.5rem;
     }
     h2 {
-      color: #7c3e0c;
+      color:goldenrod;
     }
     .error-msg {
       font-size: 0.875rem;
@@ -37,7 +37,7 @@
   <!-- Navbar -->
   <nav class="navbar navbar-expand-lg navbar-light bg-light shadow-sm">
     <div class="container">
-      <a class="navbar-brand fw-bold text-primary" href="index.html">Golden Years’s Retreat</a>
+      <a class="navbar-brand fw-bold text-primary" href="index.html">Golden Year's Retreat</a>
       <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
         <span class="navbar-toggler-icon"></span>
       </button>
@@ -56,7 +56,7 @@
   <section class="py-5">
     <div class="container">
       <div class="form-section mx-auto" style="max-width: 700px;">
-        <h2 class="text-center mb-4">Register with Us</h2>
+        <h2 class="text-center mb-4">Be A Part Of Our Family</h2>
         <form action="./submited.html" method="get" id="registrationForm" novalidate>
           
           <div class="form-floating mb-3 position-relative">
@@ -83,11 +83,11 @@
           <div class="form-floating mb-4 position-relative">
             <i class="bi bi-people-fill"></i>
             <select class="form-select" id="type" name="type" required>
-              <option value="" disabled selected>Select</option>
-              <option value="Child">Child</option>
-              <option value="Citizen">Citizen</option>
+              <option value="" disabled selected><S>Select:</S></option>
+              <option value="Child">Online</option>
+              <option value="Citizen">Cash</option>
             </select>
-            <label for="type">Select:</label>
+            <label for="type">Payment Mode</label>
             <div class="error-msg" id="typeError"></div>
           </div>
 
